@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+
+  "name": "Donate Focus - Website Blocker Alternative",
+  "description": "This extension teaches you to avoid websites on a blocked list by having you donate money to charity each time you visit a website, the total of which increases the longer you spend on said site.",
+  "version": "0.1.0",
+
+  "browser_action": {
+    "default_title":"Donate Focus",
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "background":{
+    "scripts": ["scripts/eventspage.js"],
+    "persistent": false
+  },
+  "permissions": [
+    "activeTab",
+    "storage",
+    "webNavigation"
+  ],
+  "incognito": "spanning",
+  "options_page": "options.html"
+}
