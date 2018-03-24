@@ -17,7 +17,8 @@
   "permissions": [
     "activeTab",
     "storage",
-    "webNavigation"
+    "webNavigation",
+    "tabs"
   ],
   "incognito": "spanning",
   "options_page": "options.html"
